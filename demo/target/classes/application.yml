@@ -2,10 +2,10 @@ server:
   port: 8080
 
 github:
-  token: "ghp_81NKlZ22r9St9d0QSJs0F7QsSjiPa"
+  token: "ghp_xxxxxxxxxxxxxxxxxx"
 
 spring:
   security:
     user:
       name: pritee2705
-      password: Pritee@#dp123
+      password: "password"
