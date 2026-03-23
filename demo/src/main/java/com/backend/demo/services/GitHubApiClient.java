@@ -17,7 +17,7 @@ public class GitHubApiClient {
     private final RestTemplate restTemplate;
     private final String token;
 
-    public GitHubApiClient(@Value("${github.token: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}") String token) {
+    public GitHubApiClient(@Value("${github.token:ghp_xxxxxxxxxxxxxxxxxxxxx}") String token) {
         this.restTemplate = new RestTemplate();
         this.token = token;
     }
